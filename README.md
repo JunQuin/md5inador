@@ -30,13 +30,19 @@ El script `install_md5inador.sh` automatiza la instalación de **md5inador**. Aq
 1. **Descargar el script**  
    Puedes descargar el script directamente o clonar el repositorio.
 
-2. **Haz el script ejecutable**  
+   O usando **curl**:
+   Abre una terminal y ejecuta el siguiente comando para descargar el script de instalación:
+   ```bash
+   curl -sSL https://raw.githubusercontent.com/JunQuin/md5inador/refs/heads/main/install_md5inador.sh -o install_md5inador.sh
+   ```
+
+3. **Haz el script ejecutable**  
    Abre una terminal y ejecuta el siguiente comando para darle permisos de ejecución al script:
 
    ```bash
    chmod +x install_md5inador.sh
 
-3. **Ejecutar el script**
+4. **Ejecutar el script**
    Luego, corre el script con:
    ```bash
    ./install_md5inador.sh
