@@ -154,7 +154,7 @@ int main(int argc, char *argv[])
     // Ejecutar el comando md5sum
     printf("INFO: Calculando el MD5 del archivo: %s\n", file_path);
     char md5_command[MAX_PATH_LENGTH];
-    if (snprintf(md5_command, sizeof(md5_command), "md5sum \"%s\" > \"%s\"", file_path, md5_file_path) >= sizeof(md5_command))
+    if (snprintf(md5_command, sizeof(md5_command), "md5sum \"%s\" > \"%s\"", nombre_archivo, md5_file_path) >= sizeof(md5_command))
     {
         fprintf(stderr, "Error: el comando 'md5sum' es demasiado largo\n");
         return 1;
