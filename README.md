@@ -56,6 +56,9 @@ El script `install_md5inador.sh` automatiza la instalación de **md5inador**. Aq
 
 4. **Aplicar los cambios al PATH**
    Una vez que el script haya terminado, ejecuta uno de los siguientes comandos según el shell que utilices para aplicar los cambios en el PATH:
+
+   `En caso de no conocer cual es, cerrar y volver a abrir la terminal funciona`.
+
    Para **Bash**:
    ```bash
    source ~/.bashrc
